@@ -1,0 +1,50 @@
+// 表格高级搜索
+.search-wrap {
+  padding-top: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+
+  .el-form-item {
+    margin-bottom: 0;
+  }
+}
+
+.table-wrap {
+  padding: 16px 20px;
+  margin-top: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+
+  /deep/.el-table {
+    color: #333;
+
+    .operate-span {
+      color: #1890FF;
+      cursor: pointer;
+    }
+  }
+
+  .table-info {
+    margin-bottom: 16px;
+
+    h4 {
+      line-height: 34px;
+      font-size: 18px;
+      color: #333;
+    }
+
+    .add-btn {
+      /deep/ span {
+        display: flex;
+        align-items: center;
+
+        i {
+          display: block;
+          width: 14px;
+          height: 14px;
+          margin-right: 7px;
+        }
+      }
+    }
+  }
+}

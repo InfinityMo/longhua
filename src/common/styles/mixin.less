@@ -1,0 +1,441 @@
+// .link-open {
+//   color: #1890FF;
+//   cursor: pointer;
+// }
+
+// .link-valid {
+//   color: #52C41A;
+// }
+
+// .link-invalid {
+//   color: #F5222D;
+// }
+
+// .el-dialog.custom-dialog .dynamic-form {
+//   .dynamic-item {
+//     position: relative;
+//     padding: 20px;
+//     margin-bottom: 30px;
+//     border: 1px solid #D9D9D9;
+//     box-sizing: border-box;
+//     border-radius: 5px;
+
+//     .delete-icon {
+//       position: absolute;
+//       top: -8px;
+//       right: -8px;
+//       cursor: pointer;
+//     }
+
+//     .form-item:last-child {
+//       .el-form-item {
+//         margin-bottom: 0;
+//       }
+//     }
+//   }
+// }
+
+// .add-wrap {
+//   margin-bottom: 30px;
+//   height: 28px;
+//   border: 1px dashed;
+//   border: 1px dashed #2BB8BD;
+//   cursor: pointer;
+
+//   span {
+//     margin-left: 10px;
+//     font-size: 14px;
+//     color: #2BB8BD;
+//   }
+// }
+
+// .details-drawer-wrap {
+//   padding: 10px 20px 30px 20px;
+//   height: calc(100vh - 82px);
+//   overflow-y: auto;
+
+//   h4 {
+//     color: #1A1A1A;
+//     font-size: 18px;
+//     line-height: 26px;
+//   }
+
+//   .border-top {
+//     border-top: 1px solid #eee;
+//   }
+
+//   .details-item {
+//     padding-top: 30px;
+//     font-size: 14px;
+//     line-height: 20px;
+//     color: #333;
+
+//     .link-shop-title {
+//       padding-bottom: 30px;
+//     }
+
+//     ul {
+//       padding-top: 35px;
+//     }
+
+//     p,
+//     li {
+//       margin-bottom: 26px;
+
+//       label {
+//         min-width: 70px;
+//       }
+
+//       span {
+//         width: 100%;
+//         word-break: break-all;
+//       }
+//     }
+
+//     .level-status {
+//       span {
+//         width: auto;
+//         margin-right: 50px;
+//       }
+//     }
+//   }
+
+//   .no-padding {
+//     padding-top: 0 !important;
+//   }
+
+//   .activity-wrap {
+//     padding-top: 30px;
+//   }
+
+//   // .item-has-border {
+//   //   padding-bottom: 4px;
+//   // }
+
+//   // .activity-title {
+//   //   padding-top: 30px;
+//   //   font-size: 18px;
+//   //   line-height: 26px;
+//   //   color: #1A1A1A;
+//   //   border-top: 1px solid #eee;
+//   // }
+
+//   // .activity-wrap {
+//   //   .details-item:first-child {
+//   //     padding-top: 0;
+//   //     border-top: 0;
+//   //   }
+//   // }
+
+//   // .details-item:first-child {
+//   //   padding-top: 0;
+//   //   border-top: 0;
+//   // }
+
+// }
+
+// .details-drawer-wrap .activity-wrap {
+//   .activity-item {
+//     padding-top: 0;
+//     border-top: 0;
+//   }
+// }
+
+// // .ul-first {
+// //   ul:first-child {
+// //     padding-top: 0;
+// //   }
+// // }
+
+// .shop-table-info {
+//   padding: 5px 0 10px 0;
+
+//   img {
+//     width: 80px;
+//     height: 80px;
+//     overflow: hidden;
+//     border-radius: 5px;
+//   }
+
+//   .shop {
+//     flex-direction: column;
+//     height: 80px;
+//     margin-left: 20px;
+
+//     h5 {
+//       padding-top: 5px;
+//       font-size: 18px;
+//       line-height: 26px;
+//       color: #333;
+//     }
+
+//     ol {
+//       padding-bottom: 5px;
+
+//       li {
+//         margin-right: 40px;
+
+//         label {
+//           font-size: 14px;
+//           line-height: 20px;
+//           color: #777;
+//         }
+
+//         span {
+//           font-size: 22px;
+//           line-height: 26px;
+//           color: #333;
+//         }
+
+//         em {
+//           margin-left: 5px;
+//           font-size: 14px;
+//           line-height: 20px;
+//           color: #1890FF;
+//           cursor: pointer;
+//         }
+//       }
+//     }
+//   }
+// }
+
+
+
+
+
+// 公共链接
+.link-open {
+  color: #1890FF;
+  cursor: pointer;
+}
+
+.table-head-link {
+  color: #333;
+  cursor: pointer;
+}
+
+.link-tip {
+  color: #FAAD14;
+}
+
+.link-has-icon {
+  .svg-icon.icon {
+    width: 47px;
+    // height: 20px;
+    // font-size: 20px;
+  }
+}
+
+// 关键词
+.keyword-wrap {
+  position: relative;
+
+  .tag-wrap {
+    position: absolute;
+    left: 15px;
+    top: 5px;
+    z-index: 1;
+
+    .el-tag {
+      margin-right: 5px;
+      height: 24px;
+      line-height: 22px;
+    }
+
+    .el-tag:last-child {
+      margin-right: 0;
+    }
+  }
+
+  .keyword-input {
+    position: absolute;
+    box-sizing: border-box;
+
+    .el-input__inner {
+      position: absolute;
+      left: 0;
+      padding-left: inherit;
+    }
+  }
+}
+
+// 帮助文档
+.help-wrap {
+  position: relative;
+  padding: 30px 30px 50px 30px;
+  margin-bottom: 20px;
+  background-color: #fff;
+
+  .down-extension {
+    padding-left: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #1890FF;
+    cursor: pointer;
+  }
+
+  .menu {
+    position: -webkit-sticky;
+    position: sticky;
+    float: right;
+    top: 150px;
+    right: 0;
+    border-left: 1px solid #eee;
+
+    li {
+      position: relative;
+      left: -1px;
+      padding: 2px 0 0 10px;
+      margin-bottom: 16px;
+      font-size: 14px;
+      line-height: 20px;
+      color: #777;
+      border-left: 1px solid #eee;
+      cursor: pointer;
+    }
+
+    li.active {
+      color: #2BB8BD;
+      border-left: 1px solid #2BB8BD;
+      transition: all .3s ease-in-out 0s;
+    }
+
+    li:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .content {
+    width: 80%;
+    color: #333;
+
+    .title {
+      padding-bottom: 50px;
+      font-size: 28px;
+      line-height: 26px;
+    }
+
+    .help-item-wrap {
+      padding-bottom: 50px;
+
+      .item-title {
+        font-size: 18px;
+        line-height: 26px;
+      }
+
+      ul {
+        padding-left: 30px;
+
+        li {
+          padding-top: 10px;
+          font-size: 14px;
+          line-height: 20px;
+          list-style: outside;
+
+          div {
+            display: flex;
+
+            label {
+              flex-shrink: 0
+            }
+          }
+
+          a {
+            color: #1890FF;
+            text-decoration: none;
+            cursor: pointer;
+          }
+        }
+
+        ol {
+          li {
+            position: relative;
+            list-style: none;
+
+            .img-info {
+              position: relative;
+              left: -100px;
+            }
+          }
+
+          li:first-child {
+            padding-top: 0;
+          }
+        }
+      }
+    }
+  }
+
+}
+
+// 状态
+.status::before {
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 5px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+.status.blue::before {
+  background-color: #1890FF;
+}
+
+.status.green::before {
+  background-color: #52C41A;
+}
+
+.status.red::before {
+  background-color: #F5222D;
+}
+
+// 列表选择底部呈现框
+.bottom-btn-group {
+  .el-button {
+    margin-left: 20px;
+  }
+}
+
+// cookie过期弹窗
+.el-message-box {
+  width: 436px;
+
+  .message-box-wrap {
+    .el-message-box__status {
+      flex-shrink: 0;
+      padding-right: 10px;
+      position: relative;
+      transform: none
+    }
+
+    .content {
+      line-height: 20px;
+      color: #777;
+      font-size: 14px;
+
+      .strategy-link::after {
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 3px;
+        content: url(~@/assets/img/icons/link.png);
+      }
+
+      .other-help {
+        padding-top: 20px;
+      }
+    }
+  }
+}
+
+.upload-tip {
+  padding-top: 20px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #777;
+
+  span {
+    margin-left: 10px;
+  }
+}

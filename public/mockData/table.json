@@ -1,0 +1,46 @@
+{
+  "status": true,
+  "msg": "success",
+  "code": "200",
+  "data": {
+    "result": [
+      {
+        "id": "1",
+        "createTime": "2020-06-21 14:26:00",
+        "fileName": "玫珂菲-人群分类数据表格.xlsx",
+        "status": "1",
+        "kValue": "3",
+        "reductionType": "PCA",
+        "forecastLength": "10",
+        "modelType": "乘法",
+        "seasonCycle": "4",
+        "boxCox": "0"
+      },
+      {
+        "id": "2",
+        "createTime": "2020-05-31 14:26:00",
+        "fileName": "丝塔芙-人群分类数据表格.xlsx",
+        "status": "-1",
+        "kValue": "3",
+        "reductionType": "TSNE",
+        "forecastLength": "10",
+        "modelType": "乘法",
+        "seasonCycle": "4",
+        "boxCox": "0"
+      },
+      {
+        "id": "3",
+        "createTime": "2020-05-31 14:26:00",
+        "fileName": "丝塔芙-人群分类数据表格.xlsx",
+        "status": "0",
+        "kValue": "-",
+        "reductionType": "只降维",
+        "forecastLength": "10",
+        "modelType": "乘法",
+        "seasonCycle": "4",
+        "boxCox": "1"
+      }
+    ],
+    "total": 2
+  }
+}

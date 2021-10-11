@@ -1,0 +1,158 @@
+html,
+body {
+  position: relative;
+  // height: 100%;
+}
+
+#app {
+  position: relative;
+  min-height: 100vh;
+  background: #f0f2f5;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-justify-center {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-justify-start {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.flex-justify-end {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.flex-item-center {
+  display: flex;
+  align-items: center;
+}
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-between-center {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+// 表格组件样式重置
+.standard-table {
+  .table {
+    width: 100%;
+  }
+
+  .el-table__empty-text {
+    .empty-wrap {
+      line-height: 21px;
+
+      div {
+        padding-bottom: 34px;
+        font-size: 14px;
+        color: #aaa;
+      }
+    }
+  }
+}
+
+.standard-table::before {
+  display: none;
+}
+
+.page {
+  margin-bottom: 20px;
+}
+
+// 表格组件
+.standard-table.el-table {
+  thead {
+    color: #333;
+
+    th {
+      padding: 10px 0;
+
+      .cell.highlight {
+        color: #333;
+      }
+
+      .el-table__column-filter-trigger {
+        // line-height: 20px;
+        margin-left: 5px;
+
+        i {
+          position: relative;
+          top: 2px;
+          font-size: 20px;
+        }
+      }
+    }
+  }
+
+  th {
+    // text-align: left;
+    font-weight: normal;
+    background-color: #fafafa;
+  }
+
+  td {
+    padding: 5px 0;
+
+    div {
+      line-height: 34px;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+
+      .span-text {
+        line-height: 34px;
+        min-height: 34px;
+      }
+    }
+  }
+
+  .view-title {
+    display: block;
+    color: #1890FF;
+    cursor: pointer;
+  }
+
+  .operate-btn {
+    padding: 0 4px;
+  }
+
+  .operate-btn-group {
+    .el-button {
+      color: #1890FF;
+      padding: 9px 10px;
+    }
+
+    .el-button.is-disabled {
+      opacity: .5;
+    }
+
+    .el-divider--vertical {
+      margin: 1px;
+    }
+  }
+}
+
+.no-data {
+  text-align: center;
+
+  p {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 26px;
+    color: #333;
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "status": true,
+  "msg": "success",
+  "code": "200",
+  "data": {
+    "result": [
+      {
+        "id": "1",
+        "label": "泡洗面奶",
+        "contribution": "0.5585"
+      },
+      {
+        "id": "2",
+        "label": "碧柔",
+        "contribution": "0.7585"
+      },
+      {
+        "id": "3",
+        "label": "神经酰胺",
+        "contribution": "0.5985"
+      }
+    ],
+    "total": 2
+  }
+}
